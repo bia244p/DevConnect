@@ -1,0 +1,177 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-flex-perfil {
+   /* background-color: rgb(224, 204, 244);*/
+  /* height: 700px;*/
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#perfil {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* overflow-x: scroll; */
+    gap: 30px;
+}
+
+#storys:-webkit-scrollbar{
+    width: 0;
+}
+
+
+.card-perfil>button {
+    background-color: transparent;
+    border: none;
+    /* text-decoration: none; */ /*SÓ PARA QUEM ESTÁ COM A TAG <a>*/
+
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-perfil>button>img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+
+.formulario-botao-azul{
+    width: 135px;
+}
+
+#criar-perfil{
+       color: var(--cor-branco);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    
+    #criar-perfil> form> footer {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        padding: 10px;
+    }
+
+
+#criar-perfil>h2{
+      color: var(--cor-preto);
+      font-size: var(--tamanho-fonte-lg);
+      font-weight: 700;
+
+}
+
+#criar-perfil >form > textarea ::placeholder{
+       color: var(--cor-cinza-claro);
+
+}
+
+#criar-perfil > form > textarea{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    resize: none;
+    border: var(--borda);
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-sm);
+}
+
+#perfilcacoes{
+    background-color: blue;
+    width: 100%;
+}
+
+.card-perfil{
+      background-color: var(--cor-branco);
+      width: 100%;
+   
+
+}
+
+.card-perfil>header>a{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    text-decoration: none;
+    color: var(--cor-preto);
+    text-transform: none;
+}
+
+.card-perfil>figure{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+
+}
+
+.imagem-perfilcacao{
+    object-fit: cover;
+    object-position:center ;
+    width: 100%;
+    height: 350px;
+}
+
+.card-perfil > figure > figcaption{
+     color: var(--cor-preto);
+     font-size: var(--tamanho-fonte-md);
+     font-weight: 500;  
+     display: flex; 
+     align-items: center;  
+     column-gap: 5px; 
+     margin: 15px ;
+     order: 2;
+}
+
+.descricao-perfilcacao{
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 400;
+}
+
+.interacoes-perfilcacao{
+    display: flex;
+    width: 88px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 1;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.interacoes-perfilcacao > button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.card-perfil > figure > button{
+    background-color: transparent;
+    border: none;
+
+    color: var(--cor-cinza-claro);
+    font-size: var(--tamanho-fonte-sm);
+
+    order: 3;
+
+    margin-left: 15px;
+}
