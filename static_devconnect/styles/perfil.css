@@ -4,6 +4,7 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    background-color: #fff;
 }
 
 .container-flex-perfil {
@@ -28,85 +29,47 @@ main {
  }
 
  #perfil{
-   background-color: aquamarine;
+   background-color: var(--cor-branco);
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 30px;
    flex-wrap: wrap;
+   border: var(--borda);
    
  }
 
  .Dados-perfil{
    display: flex;
    flex-direction: column;
-   gap: 15px;
-   
 
  }
+ .editar-perfil{
+  display: flex;
+  justify-content: center;
+  
+ }
+
 
  .Dados-perfil > div{
    display: flex;
    gap: 30px;
  }
-
- /* #coluna-1{
-   display: flex;
-   flex-direction: column;
-   padding: 1px;
+ 
+ .publicacao-cabecalho{
+  background-color: var(--cor-branco);
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding: 15px;  
  }
 
- #coluna-2{
-   display: flex;
-   flex-direction: column;
- }
-
- #coluna-2
-{
-   display: flex;
-   flex-direction: column;
- }
-
-.perfil {
-    object-fit: cover;
-    object-position: center;
-    width: 100px;
-    height: 100px;
-    justify-content: space-between;
-    gap: 30PX;
- }
+ .post-texto{
+  background-color: var(--cor-branco);
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
   
- .card-perfil{
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+  border: var(--borda);
  }
-
- .foto-perfil {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    object-position: center;
- }
-
- .card-perfil > button{
-    border: none;
-    font-size: var(--tamanho-fonte-sm);
-    align-items: center;
-    gap: 8px;
- }
-
- .card-perfil > button > img{
-    width: 85px;
-    height: 85px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 50%;
-    border: none;
- } */
- 
- 
  
